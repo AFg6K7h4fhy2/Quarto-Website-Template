@@ -1,16 +1,25 @@
 [tool.poetry]
-name = "baseline-template-change"
+name = "quarto-website-template"
 version = "0.0.1"
-description = "The author's personal template for repository creation."
+description = "Templates for Quarto websites (blog pages, projects, and data visualization dashboards) for the author to reference in his work."
 authors = ["AFg6K7h4fhy2 <127630341+AFg6K7h4fhy2@users.noreply.github.com>"]
-readme = "README.md"
-license = "MIT"
+license = "Apache-2.0"
 package-mode = false
+readme = "README.md"
+repository = "https://github.com/AFg6K7h4fhy2/Quarto-Website-Template"
+keywords = ["design-patterns", "template", "standards", "website", "website-template"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
 pre-commit = "^3.7.0"
 
+[tool.poetry.urls]
+"Repository Issues" = "https://github.com/AFg6K7h4fhy2/Quarto-Website-Template/issues"
+"Author Homepage" = "https://github.com/AFg6K7h4fhy2"
+
+[tool.ruff.format]
+quote-style = "double" # use single quotes
+indent-style = "tab" # use tabs instead of spaces
 
 [build-system]
 requires = ["poetry-core"]
