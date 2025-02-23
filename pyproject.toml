@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "quarto-website-template"
 version = "0.0.1"
-description = "The author's personal template for repository creation."
+description = "Templates for Quarto websites (blog pages, projects, and data visualization dashboards) for the author to reference in his work."
 authors = ["AFg6K7h4fhy2 <127630341+AFg6K7h4fhy2@users.noreply.github.com>"]
 license = "Apache-2.0"
 package-mode = false
 readme = "README.md"
 repository = "https://github.com/AFg6K7h4fhy2/Quarto-Website-Template"
-keywords = ["design-patterns", "template", "standards"]
+keywords = ["design-patterns", "template", "standards", "website", "website-template"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
